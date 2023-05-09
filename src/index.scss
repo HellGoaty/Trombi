@@ -92,6 +92,7 @@ html {
     left: 50%;
     transform: translateX(-50%);
     transition: all ease-in-out 500ms;
+    animation: all ease-in-out 500ms;
     
 }
 
@@ -108,8 +109,6 @@ html {
     50% {
         background-color: #3080C3;
         border-radius: 45%;
-        transform:translateY(10px)
-
     }
 
     100% {
